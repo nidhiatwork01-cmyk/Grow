@@ -8,7 +8,7 @@ export default function Specialties() {
     {
       title: "Anxiety & Panic",
       description: "If you're feeling constantly worried, emotionally on edge, or experiencing panic, I can help. We'll work together to understand both the emotional and physiological sides of what you're experiencing, using evidence-based methods to help you feel more regulated.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=85",
+      image: "/images/photo_2026-02-01_23-08-03.jpg",
     },
     {
       title: "Trauma",
