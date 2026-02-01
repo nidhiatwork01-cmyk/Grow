@@ -13,7 +13,7 @@ export default function Specialties() {
     {
       title: "Trauma",
       description: "I work with adults who have experienced single-incident trauma as well as more complex, long-standing patterns. My approach is paced carefully, with an emphasis on safety, stabilization, and helping you feel more regulated in your daily life.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=85",
+      image: "/images/photo_2026-02-01_23-08-20.jpg",
     },
     {
       title: "Burnout & Perfectionism",
