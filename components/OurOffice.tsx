@@ -22,7 +22,7 @@ export default function OurOffice() {
           <ScrollAnimation direction="right" delay={100}>
             <div className="relative w-full h-[300px] sm:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/images/photo_2026-02-01_23-00-33.jpg"
+                src="/images/office1.jpeg"
                 alt="Santa Monica therapy office - calm and grounding space"
                 fill
                 className="object-cover"

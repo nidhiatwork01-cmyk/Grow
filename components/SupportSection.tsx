@@ -12,7 +12,7 @@ export default function SupportSection() {
           <ScrollAnimation direction="right" delay={100}>
             <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&q=85"
+                src="/images/photo_2026-02-01_23-34-25.jpg"
                 alt="Supportive therapy space"
                 fill
                 className="object-cover"
