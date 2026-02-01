@@ -30,11 +30,12 @@ export default function FAQs() {
           <ScrollAnimation direction="right" delay={100}>
             <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-t-[80px] sm:rounded-t-[100px] rounded-b-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1594824476968-48dfc28976b0?w=1200&q=85"
-                alt="Therapy session space"
-                fill
-                className="object-cover"
-              />
+               src="/images/photo_2026-02-01_21-24-09.jpg"
+              alt="Therapy session space"
+              fill
+               className="object-cover"
+                priority
+             />
             </div>
           </ScrollAnimation>
 
