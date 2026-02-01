@@ -42,7 +42,7 @@ export default function AboutSection() {
               </div>
               <div className="absolute -bottom-6 -right-6 sm:-bottom-8 sm:-right-8 w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/office1.jpeg"
+                  src="/images/photo_2026-02-01_23-00-33.jpg"
                   alt="Therapy office space"
                   fill
                   className="object-cover"
