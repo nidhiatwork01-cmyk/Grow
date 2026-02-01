@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="order-2 lg:order-1">
               <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] rounded-t-[80px] sm:rounded-t-[100px] rounded-b-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=1200&q=85"
+                  src="/images/mainlogopic.jpg"
                   alt="Calm therapy space in Santa Monica"
                   fill
                   className="object-cover"
