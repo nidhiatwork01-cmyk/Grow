@@ -33,11 +33,11 @@ export default function Specialties() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
           {specialties.map((specialty, index) => (
             <ScrollAnimation key={index} direction="up" delay={index * 150}>
-              <div className="border-2 border-primary/30 rounded-lg p-8 sm:p-10 bg-background-light hover:shadow-xl hover:border-primary/50 transition-all duration-300">
+              <div className="border-2 border-primary/30 rounded-lg p-8 sm:p-10 bg-background-light hover:shadow-xl hover:border-primary/50 transition-all duration-300 flex flex-col h-full justify-between">
                 <h3 className="text-2xl sm:text-3xl font-display font-semibold text-heading mb-6" style={{ fontWeight: 600, fontFamily: "'Cormorant Garamond', serif", color: '#1a1a1a' }}>
                   {specialty.title}
                 </h3>
-                <p className="text-base sm:text-lg text-body mb-8 leading-relaxed font-normal" style={{ fontFamily: "'Inter', sans-serif", color: '#4A5F4A' }}>
+                <p className="text-base sm:text-lg text-body mb-8 leading-relaxed font-normal flex-grow" style={{ fontFamily: "'Inter', sans-serif", color: '#4A5F4A' }}>
                   {specialty.description}
                 </p>
                 <div className="relative w-48 h-48 sm:w-64 sm:h-64 mx-auto rounded-full overflow-hidden border-2 border-primary/20">
